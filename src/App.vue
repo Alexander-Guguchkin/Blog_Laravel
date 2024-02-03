@@ -1,19 +1,18 @@
 <script setup>
 import { RouterView } from 'vue-router'
 
-import Header from "@/components/Header.vue";
+import Header from '@/components/Header.vue'
 </script>
 <template>
-
   <header>
-    <Header/>
+    <Header />
   </header>
   <main>
-    <RouterView/>
+    <RouterView />
   </main>
 </template>
 <style scoped>
-.header{
+.header {
   display: flex;
   justify-content: end;
 }

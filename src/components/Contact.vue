@@ -1,13 +1,9 @@
 <script>
 export default {
-  name: "Contact"
+  name: 'Contact'
 }
 </script>
 
-<template>
-<div>Contact</div>
-</template>
+<template></template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -1,15 +1,13 @@
 <script>
-import Contact from "@/components/Contact.vue";
+import Contact from '@/components/Contact.vue'
 export default {
-  name: "Contactview",
-  components:{
+  name: 'Contactview',
+  components: {
     Contact
   }
 }
 </script>
-  <template>
-    <Contact/>
-  </template>
-<style scoped>
-
-</style>
+<template>
+  <Contact />
+</template>
+<style scoped></style>
