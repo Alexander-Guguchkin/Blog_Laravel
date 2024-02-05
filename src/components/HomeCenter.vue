@@ -42,16 +42,16 @@ export default {
 }
 .wraper {
   margin: 0 auto;
-  width: 974px;
+  width: 1200px;
 }
 .homeCenter__header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 16px;
 }
-.homeCenter__header a{
-    color: #00A8CC;
-    text-decoration: none;
+.homeCenter__header a {
+  color: #00a8cc;
+  text-decoration: none;
 }
 .homeCenter__cart {
   display: flex;
@@ -60,8 +60,8 @@ export default {
   background-color: white;
   padding: 21px;
 }
-.homeCenter__cartTitle{
-    width: 369px;
+.homeCenter__cartTitle {
+  width: 369px;
 }
 .homeCenter__cartDate {
   display: flex;
@@ -69,7 +69,7 @@ export default {
   width: 214px;
   margin-bottom: 20px;
 }
-.homeCenter__cartContent{
-    width: 299px;
+.homeCenter__cartContent {
+  width: 299px;
 }
 </style>

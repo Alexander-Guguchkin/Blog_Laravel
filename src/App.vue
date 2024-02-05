@@ -12,6 +12,9 @@ import Header from '@/components/Header.vue'
   </main>
 </template>
 <style scoped>
+* {
+  font-size: 16px;
+}
 .header {
   display: flex;
   justify-content: end;

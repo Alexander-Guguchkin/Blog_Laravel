@@ -1,11 +1,15 @@
 <script>
 import HomeTop from '@/components/HomeTop.vue'
 import HomeCenter from '@/components/HomeCenter.vue'
+import HomeFooter from '@/components/HomeFooter.vue'
+import Footer from '@/components/Footer.vue'
 export default {
   name: 'HomeView',
   components: {
     HomeTop,
-    HomeCenter
+    HomeCenter,
+    HomeFooter,
+    Footer
   }
 }
 </script>
@@ -14,7 +18,10 @@ export default {
     <HomeTop />
   </div>
   <HomeCenter />
-  <div class="wraper"></div>
+  <div class="wraper">
+    <HomeFooter />
+    <Footer />
+  </div>
 </template>
 <style scoped>
 .wraper {

@@ -27,7 +27,8 @@ export default {
 <style scoped>
 .homeTop {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-bottom: 42px;
 }
 .homeTop__section1 {
   display: flex;
