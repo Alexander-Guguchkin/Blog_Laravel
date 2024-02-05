@@ -8,7 +8,7 @@ export default {
 <template>
   <div class="header">
     <div class="nav">
-      <RouterLink to="/home">Home</RouterLink>
+      <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/works">Works</RouterLink>
       <RouterLink to="/blog">Blog</RouterLink>
       <RouterLink to="/contact">Contact</RouterLink>

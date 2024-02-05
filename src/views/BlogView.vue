@@ -1,7 +1,12 @@
 <script>
+import Blog from '@/components/Blog.vue'
+
 export default {
-  name: 'BlogView'
+  name: 'BlogView',
+  components: { Blog }
 }
 </script>
-<template>Blog</template>
+<template>
+  <Blog />
+</template>
 <style scoped></style>

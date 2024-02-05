@@ -8,26 +8,23 @@ export default {
 <template>
   <div class="footer">
     <div class="footer footer__link">
-      <RouterLink to="htt"><img src="../assets/fb.svg" /></RouterLink>
+      <RouterLink to=""><img src="../assets/fb.svg" /></RouterLink>
       <RouterLink to=""><img src="../assets/insta.svg" /></RouterLink>
       <RouterLink to=""><img src="../assets/Group.svg" /></RouterLink>
       <RouterLink to=""><img src="../assets/Linkedin%20(1).svg" /></RouterLink>
     </div>
-    <div class="footer footer__text">
-      Copyright ©2020 All rights reserved
-    </div>
+    <div class="footer footer__text">Copyright ©2020 All rights reserved</div>
   </div>
-
 </template>
 
 <style scoped>
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
 }
-.footer__link{
+.footer__link {
   width: 316px;
   flex-direction: row;
   justify-content: space-between;
