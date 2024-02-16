@@ -21,6 +21,15 @@ export default {
   </div>
 </template>
 <style scoped>
+.blog{
+  margin: 0 auto;
+  width: 681px;
+}
+.blog__cards{
+  display: flex;
+  justify-content: center;
+
+}
 .blog__card{
   display: flex;
   justify-content: space-between;
@@ -28,5 +37,10 @@ export default {
 }
 .blog__cardTitle{
   margin: 10px 0;
+}
+
+.blog__cardText{
+  padding: 10px 0 20px 0;
+  border-bottom: 1px solid #E0E0E0;
 }
 </style>
