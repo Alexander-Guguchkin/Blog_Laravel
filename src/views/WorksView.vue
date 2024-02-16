@@ -10,4 +10,11 @@ export default {
 <template>
   <Works />
 </template>
-<style scoped></style>
+<style scoped>
+.works{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+</style>
