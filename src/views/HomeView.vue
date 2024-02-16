@@ -1,8 +1,6 @@
 <script>
 import HomeTop from '@/components/HomeTop.vue'
 import HomeCenter from '@/components/HomeCenter.vue'
-import HomeFooter from '@/components/Works.vue'
-import Footer from '@/components/Footer.vue'
 import Works from '@/components/Works.vue'
 export default {
   name: 'HomeView',
@@ -10,7 +8,6 @@ export default {
     Works,
     HomeTop,
     HomeCenter,
-    HomeFooter,
   }
 }
 </script>
