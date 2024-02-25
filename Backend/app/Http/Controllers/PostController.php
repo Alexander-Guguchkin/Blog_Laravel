@@ -22,4 +22,19 @@ class PostController extends Controller
             dump($post->getAttributes());
         }
     }
+    public function deletePost($id){
+        $this.findPost($id)->delete();
+    }
+
+    public function editPost($id, $title, $text, $images){
+        $post = $this->findPost($id);
+        $post->title = $title;
+        $post->text = $text;
+        $post->images = $images;
+        $post->save();
+    }
+    private function findPost($id){
+        $post = Post::find($id);
+        return $post;
+    }
 }
