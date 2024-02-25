@@ -9,7 +9,7 @@ class CategoryController extends Controller
     public function getCategory(){
         $categories = Category::all();
         foreach ($categories as $category){
-            dump($categories->getAttributes());
+            dump($category->getAttributes());
         }
     }
     public function addCategory($CategoryName){
@@ -18,7 +18,7 @@ class CategoryController extends Controller
         ]);
     }
     public function deleteCategory($id){
-        $this.findCategory($id)->delete();
+        $this->findCategory($id)->delete();
     }
     private function findCategory($id){
         $category = Category::find($id);

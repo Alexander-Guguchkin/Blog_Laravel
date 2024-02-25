@@ -22,7 +22,7 @@ class PostController extends Controller
         }
     }
     public function deletePost($id){
-        $this.findPost($id)->delete();
+        $this->findPost($id)->delete();
     }
 
     public function editPost($id, $title, $text, $images){
