@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\CategoryController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,4 +21,6 @@ Route::get('/getPost', [PostController::class, 'getPost']);
 Route::get('/createPost/{title}/{text}/{images}', [PostController::class, 'createPost']);
 Route::get('/editPost/{id}/{title}/{text}/{images}', [PostController::class, 'editPost']);
 Route::get('/deletePost/{id}', [PostController::class, 'deletePost']);
-
+Route::get('/getCategory',[CategoryController::class, 'getCategory']);
+Route::get('/addCategory/{categoryName}',[CategoryController::class, 'addCategory']);
+Route::get('/deleteCategory/{id}',[CategoryController::class, 'deleteCategory']);
